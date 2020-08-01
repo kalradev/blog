@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown'
 import Code from "./code";
+import Theme from "../theme"
 
 const Markdown = ({ content }) => {
     return <div style={{ width: '100%' }} className="md-style">
@@ -101,11 +102,10 @@ const Markdown = ({ content }) => {
         .md-style blockquote {
             margin: 0px;
             padding-left: 1em;
-            
+            border-left: 4px solid ${Theme.colors.accent};
         }
         `}</style>
     </div>
 }
 
 export default Markdown
-//border-left: 4px solid ${config.accentColor};
