@@ -7,4 +7,9 @@ Will provide a file with domain to ipaddress mapping.
 
 ![ASDF](/blogs/test/test.jpg)
 
-Then pass the ipaddresses file to masscan to scan`
+Then pass the ipaddresses file to masscan to scan
+
+```python
+import base64
+print(base64.b64decode(b'asdf'))
+```
