@@ -12,7 +12,7 @@ const Markdown = ({ content }) => {
             }}
             escapeHtml={false}
         />
-        <style jsx>{`
+        <style jsx global>{`
         .md-style p,
         .md-style li {
             line-height: 1.7;
@@ -26,6 +26,7 @@ const Markdown = ({ content }) => {
         .md-style h6 {
             margin: 0px;
             padding: 0px;
+            font-family: ${Theme.fontFamily.head};
         }
         .md-style h1 > a,
         .md-style h2 > a,
@@ -40,47 +41,8 @@ const Markdown = ({ content }) => {
             opacity: 0.35;
         }
         .md-style h1 {
-            padding-top: 30px;
-            padding-bottom: 10px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        .md-style h2 {
-            padding-top: 25px;
-            padding-bottom: 10px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-        .md-style h3 {
-            padding-top: 20px;
-            padding-bottom: 10px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        .md-style h4 {
-            padding-top: 15px;
-            padding-bottom: 10px;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        .md-style h5 {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-top: 10px;
+            margin-top:30px;
             margin-bottom: 10px;
-        }
-        .md-style h6 {
-            padding-top: 5px;
-            padding-bottom: 10px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        .md-style p {
-            padding: 10px 0px;
-            margin: 10px 0px;
-        }
-        .md-style li {
-            padding: 10px 0px;
         }
         .md-style code {
             background-color: #00000010;

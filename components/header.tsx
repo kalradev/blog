@@ -26,17 +26,18 @@ function Header() {
           </a>
         </div>
       </div>
+      
       <style jsx>{`
         .header {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           font-size: 2em;
-          margin-bottom: 30px;
+          margin-bottom: 15px;
         }
         .tagline {
           color: ${Theme.colors.accent};
-          font-family: $font-brand;
+          font-family: ${Theme.fontFamily.brand};
         }
         .connect {
           display: flex;
