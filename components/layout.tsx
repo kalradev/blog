@@ -1,5 +1,4 @@
 import Header from './header'
-import Footer from './footer'
 
 const Layout = ( props ) => {
     return <div>
@@ -9,7 +8,6 @@ const Layout = ( props ) => {
             {props.children}
         </div>
         <hr />
-        <Footer/>
     </div>
 }
 
