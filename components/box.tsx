@@ -14,7 +14,7 @@ const Box = (props: Props) => {
             <Link href={props.Link}>
                 <a>
                     <p className="title">{props.Title}</p>
-                    <p className="subtitle">{props.Description}</p>
+                    <p className="content">{props.Description}</p>
                     <figure className={`image ${props.ImageSize}`}>
                         <img src={props.ImageLink} />
                     </figure>
