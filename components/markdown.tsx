@@ -62,6 +62,9 @@ const Markdown = ({ content }) => {
             padding-left: 1em;
             border-left: 4px solid ${Theme.colors.accent};
         }
+        .md-style img {
+            width:100%;
+        }
         `}</style>
     </div>
 }
