@@ -39,8 +39,6 @@ const getStaticPaths = async function () {
     params: { blog:filename.slice(0,-3) },
   }))
 
-  console.log(paths)
-
   // We'll pre-render only these paths at build time.
   // { fallback: false } means other routes should 404.
   return { paths, fallback: false }
