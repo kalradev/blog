@@ -17,6 +17,7 @@ const Markdown = ({ content }) => {
         .md-style li {
             line-height: 1.7;
             color: #333;
+            font-family: ${Theme.fontFamily.content};
         }
         .md-style h1,
         .md-style h2,
