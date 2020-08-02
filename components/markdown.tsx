@@ -13,57 +13,20 @@ const Markdown = ({ content }) => {
             escapeHtml={false}
         />
         <style jsx global>{`
-        .md-style p,
-        .md-style li {
+        .md-style p {
             line-height: 1.7;
             color: #333;
             font-family: ${Theme.fontFamily.content};
         }
-        .md-style h1,
-        .md-style h2,
-        .md-style h3,
-        .md-style h4,
-        .md-style h5,
-        .md-style h6 {
-            margin: 0px;
-            padding: 0px;
-            font-family: ${Theme.fontFamily.head};
-        }
-        .md-style h1 > a,
-        .md-style h2 > a,
-        .md-style h3 > a,
-        .md-style h4 > a,
-        .md-style h5 > a,
-        .md-style h6 > a {
-            text-decoration: none;
-        }
-        .md-style hr {
-            margin: 20px 0px;
-            opacity: 0.35;
-        }
         .md-style h1 {
-            margin-top:30px;
-            margin-bottom: 10px;
-        }
-        .md-style code {
-            background-color: #00000010;
-            padding: 3px 3px;
-            border-radius: 2px;
-        }
-        .md-style pre {
-            margin: 20px 0px !important;
-        }
-        .md-style ol pre,
-        .md-style ol p {
-            margin: 0px 0px !important;
-        }
-        .md-style blockquote {
-            margin: 0px;
-            padding-left: 1em;
-            border-left: 4px solid ${Theme.colors.accent};
+            margin: 10px 0 10px 0;
+            font-family: ${Theme.fontFamily.head};
+            font-size: 2.5em;
+            font-weight: 600;
         }
         .md-style img {
             width:100%;
+            margin:20px 0 0 0;
         }
         `}</style>
     </div>
