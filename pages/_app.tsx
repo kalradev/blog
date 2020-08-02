@@ -16,17 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             a:hover {
                 color: ${Theme.colors.accent};
             }
-            
             hr {
                 height: 3px;
                 background-color: black;
-            }
-            img {
-                width: 100%;
-                border-radius: 8px;
-                box-shadow: 0px 4px 30px #00000040;
-            }
-            
+            }            
             @media (max-width: ${Theme.size.phone}) {
                 html {
                     margin: 1%;
