@@ -13,24 +13,22 @@ function MyApp({ Component, pageProps }: AppProps) {
                 color: black;
                 text-decoration: none;
             }
-            a:hover {
-                color: ${Theme.colors.accent};
-            }
             hr {
                 height: 3px;
                 background-color: black;
             }            
             @media (max-width: ${Theme.size.phone}) {
                 html {
-                    margin: 1%;
+                    margin: 4%;
                 }
             }
 
             .title {
                 font-family: ${Theme.fontFamily.head};
                 margin: 0 0 10px 0;
+                font-weight: 600;
             }
-            .subtitle {
+            .content {
                 font-family: ${Theme.fontFamily.content};
                 font-size: 100%;
             }
