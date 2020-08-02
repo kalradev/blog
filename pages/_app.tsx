@@ -25,6 +25,15 @@ function MyApp({ Component, pageProps }: AppProps) {
                     margin: 1%;
                 }
             }
+
+            .title {
+                font-family: ${Theme.fontFamily.head};
+                margin: 0 0 10px 0;
+            }
+            .subtitle {
+                font-family: ${Theme.fontFamily.content};
+                font-size: 100%;
+            }
         `}</style>
     </div>
 }
