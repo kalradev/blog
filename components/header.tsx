@@ -46,6 +46,9 @@ function Header() {
         .link {
           padding-left: 10px;
         }
+        div.link>a:hover {
+            color: ${Theme.colors.accent};
+        }
         `}</style>
     </div>
   );
