@@ -12,7 +12,7 @@ const Markdown = ({ content }) => {
             }}
             escapeHtml={false}
         />
-        <style jsx global>{`
+        <style jsx>{`
         .md-style p,
         .md-style li {
             line-height: 1.7;
@@ -81,11 +81,6 @@ const Markdown = ({ content }) => {
         }
         .md-style li {
             padding: 10px 0px;
-        }
-        .md-style img {
-            width: 100%;
-            border-radius: 8px;
-            box-shadow: 0px 4px 30px #00000040;
         }
         .md-style code {
             background-color: #00000010;
