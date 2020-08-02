@@ -7,6 +7,11 @@ const theme = {
     },
     colors: {
       accent:'#ff7f08'
+    },
+    size: {
+      phone: "500px",
+      tablet: "768px",
+      desktop: "1000px"
     }
   }
   
