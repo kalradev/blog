@@ -2,8 +2,8 @@
 const theme = {
     fontFamily: {
         brand: '"Anton", sans-serif',
-        head: '"Montserrat", sans-serif',
-        content: '"DM Mono", monospace'
+        content: '"Montserrat", sans-serif',
+        head: '"Oswald", sans-serif'
     },
     colors: {
       accent:'#ff7f08'

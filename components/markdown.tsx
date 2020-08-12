@@ -28,11 +28,11 @@ const Markdown = ({ content }) => {
         }
         .md-style h2 {
             font-size: 2em;
-            font-weight: 600;
+            font-weight: 500;
         }
         .md-style h3 {
             font-size: 1.5em;
-            font-weight: 600;
+            font-weight: 400;
         }
         .md-style a:hover {
             color: ${Theme.colors.accent};
@@ -45,6 +45,7 @@ const Markdown = ({ content }) => {
             line-height: 1.7;
             color: #333;
             font-family: ${Theme.fontFamily.content};
+            font-size:0.85em;
         }
         .md-style img {
             width:100%;
