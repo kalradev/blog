@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown'
-import Code from "./code";
+import Code from "./md-tags/code";
+import Li from './md-tags/li';
 import Theme from "../theme"
 
 const Markdown = ({ content }) => {
@@ -9,6 +10,7 @@ const Markdown = ({ content }) => {
             source={content}
             renderers={{
                 code: Code,
+                listItem:Li,
             }}
             escapeHtml={false}
         />
@@ -18,11 +20,33 @@ const Markdown = ({ content }) => {
             color: #333;
             font-family: ${Theme.fontFamily.content};
         }
-        .md-style h1 {
+        .md-style h1,h2,h3 {
             margin: 10px 0 10px 0;
             font-family: ${Theme.fontFamily.head};
+        }
+        .md-style h1 {
             font-size: 2.5em;
             font-weight: 600;
+        }
+        .md-style h2 {
+            font-size: 2em;
+            font-weight: 600;
+        }
+        .md-style h3 {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .md-style a:hover {
+            color: ${Theme.colors.accent};
+        }
+        .md-style ul {
+            list-style: disc;
+            list-style-position: inside;
+        }
+        .md-style li{
+            line-height: 1.7;
+            color: #333;
+            font-family: ${Theme.fontFamily.content};
         }
         .md-style img {
             width:100%;
