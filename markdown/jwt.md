@@ -1,5 +1,5 @@
 # JWT - JSON Web Token
-
+![JWT tokens](/blogs/jwt/index.png)
 ## Resources
 ### Blogs
 - [Critical Vulnerabilities in JWT libraries](https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/)
