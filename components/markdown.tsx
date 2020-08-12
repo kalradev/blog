@@ -1,6 +1,5 @@
 import ReactMarkdown from 'react-markdown'
 import Code from "./md-tags/code";
-import Li from './md-tags/li';
 import Theme from "../theme"
 
 const Markdown = ({ content }) => {
@@ -9,8 +8,7 @@ const Markdown = ({ content }) => {
             key="content"
             source={content}
             renderers={{
-                code: Code,
-                listItem:Li,
+                code: Code
             }}
             escapeHtml={false}
         />
