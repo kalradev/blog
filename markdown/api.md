@@ -13,7 +13,8 @@
   - Trying all methods
   - Basically sending data it isn't expecting
 - Check HTML source for more info
-- Try to identify tech stack. Why? Maybe there will be pitfalls related to particular technology.
+- Try to identify tech stack
+  - Why? Maybe there will be pitfalls related to particular technology
  
 ## Techanical bugs
 - [sqli](/blog/sqli)
