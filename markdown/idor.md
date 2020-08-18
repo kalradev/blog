@@ -5,9 +5,11 @@ IDOR - Insecure Direct Object References, as the name suggests IDOR is a vulnera
 ## Examples for Possible Attacks
 - Changing Id when getting some data
 - Changing Id when changing some data - maybe blind idor
+- There id can be used in link, request body, cookies.
 - HTTP Parameter Pollution
 - Sometimes you can chain attack using idor - blind idor+xss
 - Getting files associated with other users
+- Sometimes ID used is a uuid - not guessable. Then somehow make the app to leak ids. 
 
 ## Automating the Attack
 - Detect those urls which are using of some kind of ids  in params or parameters
