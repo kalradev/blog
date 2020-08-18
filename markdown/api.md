@@ -1,4 +1,31 @@
 # API Security Testing
+
+## Enumeration
+- API endpoints
+  - from js files
+  - brute force
+- For a single endpoint
+  - Check which header it accepts
+  - Authorization token, cookies required or not
+- Info gathering by causing errors
+  - Supplying different type of parameter
+  - Malformed data (JSON, XML)
+  - Trying all methods
+  - Basically sending data it isn't expecting
+- Check HTML source for more info
+- Try to identify tech stack. Why? Maybe there will be pitfalls related to particular technology.
+ 
+## Techanical bugs
+- [sqli](/blog/sqli)
+- [xss](/blog/xss)
+- [ssti](/blog/ssti)
+- [rce](/blog/rce)
+- [jwt](/blog/jwt)
+
+## Logical bugs
+- [idors](/blog/idor)
+
+
 ## Resources
 ### Github
 - [31 days of API Security Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
