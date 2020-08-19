@@ -1,1 +1,0 @@
-https://medium.com/@h4x0r101/damn-vulnerable-applications-c4e286832147
