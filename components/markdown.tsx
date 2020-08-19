@@ -47,6 +47,9 @@ const Markdown = ({ content }) => {
             font-family: ${Theme.fontFamily.content};
             font-size:0.85em;
         }
+        .md-style li p {
+            display: inline-block;
+        }
         .md-style ul ul {
             margin-left: 5%;
         }
