@@ -9,6 +9,8 @@
 ## Docker
 
 ## Kubernetes
+- [x]  [Kubernetes explained](https://youtu.be/aSrqRSk43lY)
+- [x]  [Kubernetes deployment](https://youtu.be/Sulw5ndbE88)
 
 ## Istio
 - [x]  [Istio Service Mesh Explained](https://www.youtube.com/watch?v=6zDrLvpfCK4)
