@@ -22,4 +22,3 @@ IDOR - Insecure Direct Object References, as the name suggests IDOR is a vulnera
 ### Youtube
 - [Insecure Direct Object Reference Vulnerability](https://www.youtube.com/watch?v=rloqMGcPMkI)
 - [Burp Suite tutorial: IDOR vulnerability automation using Autorize and AutoRepeater (bug bounty)](https://www.youtube.com/watch?v=3K1-a7dnA60)
-- [Finding Your First Bug: Manual IDOR Hunting](https://www.youtube.com/watch?v=gINAtzdccts)

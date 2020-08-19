@@ -1,27 +1,28 @@
-# API Security 
-## IDORs
-### Blogs
-- [x]  [Portswigger - web academy](https://portswigger.net/web-security/access-control/idor)
-- [x]  [How to find more IDORs](https://medium.com/@vickieli/how-to-find-more-idors-ae2db67c9489)
-### Youtube
-- [x]  [Insecure Direct Object Reference Vulnerability](https://www.youtube.com/watch?v=rloqMGcPMkI)
-- [x]  [Burp Suite tutorial: IDOR vulnerability automation using Autorize and AutoRepeater (bug bounty)](https://www.youtube.com/watch?v=3K1-a7dnA60)
-- [ ]  [Finding Your First Bug: Manual IDOR Hunting](https://www.youtube.com/watch?v=gINAtzdccts)
-
-
-## General
-### Youtube
-- [x]  [API Security 101 by Sadako](https://www.youtube.com/watch?v=ijalD2NkRFg)
-- [x]  [Bad API, hAPI Hackers! by jr0ch17](https://www.youtube.com/watch?v=UT7-ZVawdzA)
-- [x]  [Hidden in Plain Site: Disclosing Information via Your APIs - Peter Yaworski, Bugcrowd's LevelUp 2017](https://www.youtube.com/watch?v=jBi3a-dXsM8)
-- [ ]  [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE)
-- [ ]  [Finding Your First Bug: Finding Bugs Using APIs](https://www.youtube.com/watch?v=yCUQBc2rY9Y)
-
+## API Security 
+- [ ] complete idor blog
+- [ ] learn about api vulnerabilities (especially api top 10)
+- [ ] learn about api enumeration
+- [ ] PARALLELY solve the remaining labs
+- [ ] Start Hacking
+### Some of these resources may help
+- [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE)
+- [Finding Your First Bug: Finding Bugs Using APIs](https://www.youtube.com/watch?v=yCUQBc2rY9Y)
+- [OWASP API Security Top 10 Webinar](https://www.youtube.com/watch?v=zTkv_9ChVPY)
+- [API Abuse – The Anatomy of An Attack](https://www.youtube.com/watch?v=RSBhj60PsUU)
+- [A Hacker’s View of APIs](https://www.youtube.com/watch?v=pcfr63kN6BQ)
+- [REST in Peace: Abusing GraphQL to Attack Underlying Infrastructure - LevelUp 0x05](https://www.youtube.com/watch?v=NPDp7GHmMa0)
 ### Labs
-- [x]  payatu/Tiredful-API
-- [ ]  appsecco/dvcsharp-api
+- [ ]  [appsecco/dvcsharp-api](https://github.com/appsecco/dvcsharp-api)
+- [ ]  [snoopysecurity/dvws-node](https://github.com/snoopysecurity/dvws-node)
+- [ ]  [mattvaldes/vulnerable-api](https://github.com/mattvaldes/vulnerable-api)
+
 
 # Owasp Testing Guide v4
-- [x]  Introduction
-- [x]  The Owasp Testing Framework
 - [ ]  Web application security testing - introduction and objectives
+
+# Devops
+## Kubernetes
+- [ ] concepts - blog
+- [ ] minikube deployment - blog
+## Istio
+- [x]  [Istio Service Mesh Explained](https://www.youtube.com/watch?v=6zDrLvpfCK4)
