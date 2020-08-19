@@ -47,6 +47,9 @@ const Markdown = ({ content }) => {
             font-family: ${Theme.fontFamily.content};
             font-size:0.85em;
         }
+        .md-style ul ul {
+            margin-left: 5%;
+        }
         .md-style img {
             width:100%;
             margin:20px 0 0 0;
