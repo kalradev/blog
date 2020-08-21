@@ -34,6 +34,9 @@ const Markdown = ({ content }) => {
             font-size: 1.5em;
             font-weight: 400;
         }
+        .md-style a {
+            color: #007acc;
+        }
         .md-style a:hover {
             color: ${Theme.colors.accent};
         }
@@ -45,7 +48,6 @@ const Markdown = ({ content }) => {
             line-height: 1.7;
             color: #333;
             font-family: ${Theme.fontFamily.content};
-            font-size:0.85em;
         }
         .md-style li p {
             display: inline-block;

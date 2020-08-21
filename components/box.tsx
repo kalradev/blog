@@ -3,9 +3,9 @@ import Link from 'next/link'
 interface Props {
     Link: string;
     Title: string;
-    Description: string;
-    ImageSize: string;
-    ImageLink: string;
+    Description?: string;
+    ImageSize?: string;
+    ImageLink?: string;
 }
 
 const Box = (props: Props) => {
